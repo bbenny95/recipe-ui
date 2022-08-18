@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class UserService {
 
    // url to server
-   private userUrl = 'http://localhost:3000/api/user';
+   private userUrl = 'https://recipe-server09.herokuapp.com/api/user';
 
   constructor(private http: HttpClient, private router: Router) { }
   getUsers() {

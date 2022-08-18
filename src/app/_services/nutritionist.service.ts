@@ -10,7 +10,9 @@ import { Router } from '@angular/router';
 export class NutritionistService {
 
    // url to server
-   private nutritionistUrl = 'http://localhost:3000/api/nutritionist';
+   //private nutritionistUrl = 'http://localhost:3000/api/nutritionist';
+   private nutritionistUrl = 'https://recipe-server09.herokuapp.com/api/nutritionist';
+   
 
   constructor(private http: HttpClient, private router: Router) { }
   getNutritionists() {

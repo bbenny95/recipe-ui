@@ -10,7 +10,7 @@ import { ToastrService } from 'ngx-toastr';
   providedIn: 'root'
 })
 export class ShoppingListService {
-  private apiUrl = 'http://localhost:3000/api/list';
+  private apiUrl = 'https://recipe-server09.herokuapp.com/api/list';
 
   constructor(private http: HttpClient, private router: Router,  private toastr: ToastrService) { }
 

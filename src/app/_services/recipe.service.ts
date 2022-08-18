@@ -10,7 +10,7 @@ import { Router } from '@angular/router';
 export class RecipeService {
 
    // url to server
-   private recipeUrl = 'http://localhost:3000/api/recipe';
+   private recipeUrl = 'https://recipe-server09.herokuapp.com/api/recipe';
    recipes: Recipe[] = [];
 
   constructor(private http: HttpClient, private router: Router) { }
