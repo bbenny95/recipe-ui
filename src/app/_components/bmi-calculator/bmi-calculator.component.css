@@ -1,0 +1,37 @@
+.bmi-calculator {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+#btn-calculate {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.instructions {
+    /* padding-top: 40px; */
+}
+
+.bmi-result {
+    background: #fff4e4;
+}
+
+.instruction-result {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.why-choose {
+    border: none;
+}
